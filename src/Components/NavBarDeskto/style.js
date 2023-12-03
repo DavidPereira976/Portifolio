@@ -22,7 +22,7 @@ transition: opacity 0.5s ease;
 ${({ isSelected }) => isSelected && `
   > a {
     color: none; /* Cor do texto do item selecionado */
-    border-bottom: 2px solid Blue
+    border-bottom: 2px solid #9CA3AF
   }
 `}
 `;
