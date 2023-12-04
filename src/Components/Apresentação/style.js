@@ -153,17 +153,21 @@ export const FourthTitle = styled.h4`
 `;
 
 export const BoxButton = styled.div`
-  /* border: solid blue; */
+  border: solid #409EFF ;
   width: 420px;
   display: flex;
   justify-content: space-around;
 
   @media ${device.mobileL} {
-    width: 390px;
+    width: 340px;
   }
 
   @media ${device.mobileM} {
-    width: 330px;
+    width: 320px;
+  }
+
+  @media ${device.mobileS} {
+    width: 270px;
   }
 
   @media ${device.mobileN}{
@@ -192,17 +196,25 @@ export const FirstButton = styled.button`
   }
 
   @media ${device.mobileL} {
-    width: 170px;
+    width: 150px;
+    height: 45px;
   }
 
   @media ${device.mobileM} {
-    width: 150px;
+    width: 130px;
+    height: 42px;
+  }
+
+  @media ${device.mobileS}{
+  width: 110px;
+  height: 40px;
+  font-size: 14px;
   }
 
   @media ${device.mobileN}{
-  width: 120px;
+  width: 100px;
   height: 40px;
-  font-size: 14px;
+  font-size: 13px;
   }
 `;
 
@@ -227,17 +239,25 @@ export const SecondButton = styled.button`
   }
 
   @media ${device.mobileL} {
-    width: 170px;
+    width: 150px;
+    height: 45px;
   }
 
   @media ${device.mobileM} {
-    width: 150px;
+    width: 130px;
+    height: 42px;
+  }
+
+  @media ${device.mobileS}{
+  width: 110px;
+  height: 40px;
+  font-size: 14px;
   }
 
   @media ${device.mobileN}{
-  width: 120px;
+  width: 100px;
   height: 40px;
-  font-size: 14px;
+  font-size: 13px;
   }
 `;
 
