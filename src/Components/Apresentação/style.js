@@ -153,7 +153,7 @@ export const FourthTitle = styled.h4`
 `;
 
 export const BoxButton = styled.div`
-  border: solid #409EFF ;
+  /* border: solid #409EFF ; */
   width: 420px;
   display: flex;
   justify-content: space-around;
