@@ -3,13 +3,14 @@ import device from "../../assets/Styles/device";
 
 export const Container = styled.div`
   /* border: solid red; */
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
   background-color: #012e40;
   font-family: "Archivo", sans-serif;
+  border-bottom: solid 0.1px #9CA3AF  ;
 
   @media ${device.tabletL} {
     height: 95vh;

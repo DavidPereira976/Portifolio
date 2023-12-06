@@ -7,6 +7,7 @@ export const Globalstyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     /* border: solid 1px red; */
+    font-family: "Archivo", sans-serif;
 
 }
 
