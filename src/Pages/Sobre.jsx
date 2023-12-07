@@ -1,8 +1,10 @@
+import SobreInfos from "../Components/SobreInfo/index"
+
 function Sobre() {
 
     return (
       <>
-        <h1>Esta é a parte do Sobre</h1>
+        <SobreInfos/>
       </>
     )
   }
