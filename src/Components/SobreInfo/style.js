@@ -225,11 +225,6 @@ export const SecondParagraph = styled.p`
     width: 88vw;
   }
 
-  @media ${device.mobileA} {
-    font-size: 14px;
-    width: 92vw;
-  }
-
   @media ${device.mobileS} {
     font-size: 13px;
     width: 86vw;
