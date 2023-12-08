@@ -4,7 +4,7 @@ import device from "../../assets/Styles/device";
 export const FirstBoxContent = styled.section`
   /* border: solid black; */
   background-color: #012e40;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,10 +12,6 @@ export const FirstBoxContent = styled.section`
 
   @media ${device.tabletL} {
     height: 100vh;
-  }
-
-  @media ${device.mobileL} {
-    /* padding-top: 50px; */
   }
 `;
 
@@ -226,7 +222,7 @@ export const SecondParagraph = styled.p`
 
   @media ${device.mobileM} {
     font-size: 14px;
-    width: 86vw;
+    width: 88vw;
   }
 
   @media ${device.mobileS} {
