@@ -17,6 +17,7 @@ import {
   SecondButton,
   Moldura,
   Img,
+  ImgZ,
 } from "./style";
 
 function Apresentacao() {
@@ -52,7 +53,7 @@ function Apresentacao() {
           </a>
 
           <a href="#" target="_blank">
-            <Img src={Whatsapp} alt="" />
+            <ImgZ src={Whatsapp} alt="" />
           </a>
         </Moldura>
       </Container>

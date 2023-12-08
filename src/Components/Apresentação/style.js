@@ -290,8 +290,8 @@ export const Moldura = styled.figure`
 `;
 
 export const Img = styled.img`
-  /* width: 120px;
- height: 100px; */
+transform: scale(1);
+  transition: transform 0.3s ease;
 
   &:hover {
     transform: scale(1.1);
@@ -300,6 +300,25 @@ export const Img = styled.img`
   @media ${device.mobileL} {
     width: 60px;
     height: 70px;
+  }
+
+  @media ${device.mobileN}{
+  width: 50px;
+  height: 50px;
+  }
+`;
+
+export const ImgZ = styled.img`
+transform: scale(1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  @media ${device.mobileL} {
+    width: 60px;
+    height: 60px;
   }
 
   @media ${device.mobileN}{

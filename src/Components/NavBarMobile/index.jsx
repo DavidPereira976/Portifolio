@@ -18,6 +18,11 @@ const NavBarMobile = () => {
     }
   }; 
 
+  const MenuClose = () => {
+  setIsOpen(false);
+  setMenu("☰")
+  }
+
 
   return (
     <Container>
@@ -28,15 +33,15 @@ const NavBarMobile = () => {
         <MenuLinks>
           {/* Aqui você pode adicionar links ou itens do menu */}
           
-          <StyledLink to="/" >Inicio</StyledLink>
+          <StyledLink to="/" onClick={MenuClose}>Inicio</StyledLink>
           
 
           
-          <StyledLink to="/Sobre" >Sobre</StyledLink>
+          <StyledLink to="/Sobre" onClick={MenuClose}>Sobre</StyledLink>
         
 
           
-          <StyledLink to="/projetos">Projetos</StyledLink>
+          <StyledLink to="/projetos" onClick={MenuClose}>Projetos</StyledLink>
           
          
         </MenuLinks>
