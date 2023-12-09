@@ -50,8 +50,8 @@ export const FirstBox = styled.section`
     height: 330px;
   }
 
-  @media ${device.mobileN}{
-    height:220px;
+  @media ${device.mobileN} {
+    height: 220px;
   }
 `;
 
@@ -164,9 +164,9 @@ export const FirstParagraph = styled.p`
     width: 320px;
   }
 
-  @media ${device.mobileN}{
-  font-size: 10px;
-  width: 280px;
+  @media ${device.mobileN} {
+    font-size: 10px;
+    width: 280px;
   }
 `;
 
@@ -191,14 +191,15 @@ export const SecondBox = styled.div`
     height: 240px;
   }
 
-  @media ${device.mobileN}{
- height: 190px;
+  @media ${device.mobileN} {
+    height: 190px;
   }
 `;
 
 export const SecondParagraph = styled.p`
   /* border: solid green; */
-  width: 60vw;
+  /* width: 60vw; */
+  width: 1000px;
   font-size: 22px;
   color: #fff;
 
@@ -208,39 +209,31 @@ export const SecondParagraph = styled.p`
 
   @media ${device.tabletL} {
     font-size: 22px;
-    width: 66vw;
-  }
-
-  @media ${device.tabletM} {
-    width: 69vw;
-  }
-
-  @media ${device.tabletS} {
-    width: 71vw;
+    width: 556px;
   }
 
   @media ${device.mobileL} {
     font-size: 14px;
-    width: 80vw;
+    width: 350px;
   }
 
   @media ${device.mobileM} {
     font-size: 13px;
-    width: 88vw;
+    width: 346px;
   }
 
   @media ${device.mobileA} {
     font-size: 14px;
-    width: 92vw;
+    width: 343px;
   }
 
   @media ${device.mobileS} {
     font-size: 12px;
-    width: 87vw;
+    width: 309px;
   }
 
-  @media ${device.mobileN}{
-  font-size: 10px;
-  width: 90vw ;
+  @media ${device.mobileN} {
+    font-size: 10px;
+    width: 290px;
   }
 `;
