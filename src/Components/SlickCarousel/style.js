@@ -78,6 +78,11 @@ height: 100px;
 `
 export const Title = styled.h1`
 color: #fff;
+
+@media ${device.mobileN} {
+    font-size: 15px;
+    
+  }
 `
 
 

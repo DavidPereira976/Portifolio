@@ -1,6 +1,6 @@
 import Apresentacao from "../Components/Apresentação";
 import Banner from "../Components/Banner";
-import Carrossel from "../Components/Carrossel/inde";
+import SoftSkills from "../Components/Softskills";
 import SlickCarousel from "../Components/SlickCarousel";
 
 function Inicio() {
@@ -8,7 +8,7 @@ function Inicio() {
     <>
       {/* <Banner/> */}
       <Apresentacao />
-      {/* <Carrossel/> */}
+      <SoftSkills/>
       <SlickCarousel />
       
      </>
