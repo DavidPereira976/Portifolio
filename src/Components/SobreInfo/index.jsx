@@ -48,7 +48,7 @@ function SobreInfos() {
             me proporcionou uma bagagem sólida em tecnologias essenciais como
             HTML, CSS, Javascript e React.js. Com um certificado em mãos, estou
             totalmente preparado para encarar desafios como Desenvolvedor
-            Front-End e trazer criatividade e eficiência para cada projeto."
+            Front-End e trazer criatividade e eficiência para cada projeto.
           </SecondParagraph>
         </SecondBox>
       </FirstBoxContent>

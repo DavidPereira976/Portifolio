@@ -90,7 +90,7 @@ function SlickCarousel({ children }) {
 
           <div>
             <CardsCarousel>
-              <Name >GITGUB</Name>
+              <Name >GITHUB</Name>
               <Img src={Github} alt="" />
             </CardsCarousel>
           </div>

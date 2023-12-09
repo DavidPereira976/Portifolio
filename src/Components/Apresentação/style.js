@@ -262,6 +262,11 @@ export const SecondButton = styled.button`
   }
 `;
 
+export const A = styled.a`
+text-decoration: none;
+color: #011126;
+`
+
 export const Moldura = styled.figure`
   /* border: solid green; */
   width: 200px;

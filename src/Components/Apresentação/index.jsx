@@ -15,6 +15,7 @@ import {
   BoxButton,
   FirstButton,
   SecondButton,
+  A,
   Moldura,
   Img,
   ImgZ,
@@ -43,12 +44,19 @@ function Apresentacao() {
             <Link to="/Sobre">
               <FirstButton>Saiba Mais</FirstButton>
             </Link>
-            <SecondButton>Baixar Currículo</SecondButton>
+            <SecondButton>
+              <A href="/DavidPereira.pdf" target="_blank">
+                Baixar Currículo
+              </A>
+            </SecondButton>
           </BoxButton>
         </BoxTitleButton>
 
         <Moldura>
-          <a href="https://www.linkedin.com/in/david-pereira-b3939b274" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/david-pereira-b3939b274"
+            target="_blank"
+          >
             <Img src={Linkedin} alt="" />
           </a>
 
