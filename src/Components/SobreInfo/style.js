@@ -157,6 +157,7 @@ export const FirstParagraph = styled.p`
 
   @media ${device.mobileM} {
     font-size: 13px;
+    width: 346px;
   }
 
   @media ${device.mobileS} {
@@ -198,7 +199,6 @@ export const SecondBox = styled.div`
 
 export const SecondParagraph = styled.p`
   /* border: solid green; */
-  /* width: 60vw; */
   width: 1000px;
   font-size: 22px;
   color: #fff;
@@ -214,7 +214,7 @@ export const SecondParagraph = styled.p`
 
   @media ${device.mobileL} {
     font-size: 14px;
-    width: 350px;
+    width: 348px;
   }
 
   @media ${device.mobileM} {
