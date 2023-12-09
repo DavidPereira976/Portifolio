@@ -151,22 +151,22 @@ export const FirstParagraph = styled.p`
   }
 
   @media ${device.mobileL} {
-    font-size: 14px;
+    font-size: 15px;
     width: 350px;
   }
 
   @media ${device.mobileM} {
-    font-size: 13px;
+    font-size: 14px;
     width: 346px;
   }
 
   @media ${device.mobileS} {
-    font-size: 12px;
+    font-size: 13px;
     width: 320px;
   }
 
   @media ${device.mobileN} {
-    font-size: 10px;
+    font-size: 11px;
     width: 280px;
   }
 `;
@@ -213,27 +213,27 @@ export const SecondParagraph = styled.p`
   }
 
   @media ${device.mobileL} {
-    font-size: 14px;
-    width: 348px;
+    font-size: 15px;
+    width: 346px;
   }
 
   @media ${device.mobileM} {
-    font-size: 13px;
-    width: 346px;
+    font-size: 14px;
+    width: 344px;
   }
 
   @media ${device.mobileA} {
     font-size: 14px;
-    width: 343px;
+    width: 342px;
   }
 
   @media ${device.mobileS} {
-    font-size: 12px;
+    font-size: 13px;
     width: 309px;
   }
 
   @media ${device.mobileN} {
-    font-size: 10px;
+    font-size: 11px;
     width: 290px;
   }
 `;
