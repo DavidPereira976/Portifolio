@@ -8,7 +8,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   justify-content: space-around;
   color: #fff;
 
@@ -115,9 +115,14 @@ export const Moldura = styled.figure`
     width: 200px;
   }
 
+  @media ${device.tabletS} {
+    height: 120px;
+    width: 170px;
+  }
+
   @media ${device.mobileL} {
     height: 100px;
-    width: 180px;
+    width: 170px;
   }
 
   @media ${device.mobileM} {
