@@ -122,23 +122,21 @@ export const Moldura = styled.figure`
 
   @media ${device.mobileL} {
     height: 100px;
-    width: 170px;
-  }
-
-  @media ${device.mobileM} {
-    width: 170px;
-  }
-
-  @media ${device.mobileA} {
     width: 160px;
   }
 
   @media ${device.mobileM} {
+    width: 150px;
+  }
+
+  @media ${device.mobileA} {
+    width: 145px;
     font-size: 14px;
   }
 
   @media ${device.mobileS} {
-    width: 150px;
+    width: 140px;
+    font-size: 13px;
     
   }
 
