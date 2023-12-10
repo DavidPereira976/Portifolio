@@ -26,7 +26,7 @@ export const Title = styled.h1`
 `
 
 export const ContainerImg = styled.section`
-  /* border: solid red; */
+  border: solid red;
   width: 1500px;
   display: flex;
   justify-content: space-around;
