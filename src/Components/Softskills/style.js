@@ -40,17 +40,22 @@ export const ContainerImg = styled.section`
   }
 
   @media ${device.mobileL} {
-    width: 400px;
+    width: 350px;
     flex-wrap: wrap;
   }
 
   @media ${device.mobileM} {
-    width: 370px;
+    width: 340px;
+    
+  }
+
+  @media ${device.mobileA} {
+    width: 330px;
     
   }
 
   @media ${device.mobileS} {
-    width: 326px;
+    width: 300px;
     height: 190px;
     
   }
