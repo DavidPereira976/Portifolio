@@ -3,6 +3,7 @@ import device from "../../assets/Styles/device";
 
 export const FirstBoxContent = styled.section`
   /* border: solid black; */
+  border-bottom: solid 0.1px #9ca3af;
   background-color: #012e40;
   height: 90vh;
   display: flex;
