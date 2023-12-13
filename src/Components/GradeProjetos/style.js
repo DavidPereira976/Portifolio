@@ -2,7 +2,7 @@ import styled from "styled-components";
 import device from "../../assets/Styles/device";
 
 export const FirstAlignContainer = styled.div`
-  border: solid blueviolet;
+  /* border: solid blueviolet; */
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,10 +21,14 @@ export const FirstAlignContainer = styled.div`
 
 export const Title = styled.h1`
   color: #fff;
+
+  @media ${device.mobileN}{
+  font-size: 15px;
+  }
 `;
 
 export const FirstGradeContainer = styled.section`
-  border: solid yellow;
+  /* border: solid yellow; */
   height: 850px;
   width: 1600px;
   display: flex;

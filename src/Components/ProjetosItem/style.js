@@ -2,7 +2,7 @@ import styled from "styled-components";
 import device from "../../assets/Styles/device";
 
 export const ProjectContainer = styled.div`
-  border: solid red;
+  /* border: solid red; */
   background-color: #357c8c;
   width: 300px;
   height: 450px;
@@ -39,7 +39,7 @@ export const ProjectContainer = styled.div`
 `;
 
 export const ContentAndImage = styled.div`
-border: solid violet;
+/* border: solid violet; */
 
 @media ${device.tabletL}{
 display: flex;
@@ -60,7 +60,7 @@ export const ProjectImage = styled.img`
 `;
 
 export const ProjectContent = styled.div`
-  border: solid green;
+  /* border: solid green; */
   height: 180px;
   display: flex;
   flex-direction: column;
@@ -90,7 +90,7 @@ export const ProjectDescription = styled.p`
 `;
 
 export const IconsSection = styled.div`
-  border: solid gray;
+  /* border: solid gray; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +104,7 @@ export const Icon = styled.img`
 `;
 
 export const ButtonSection = styled.div`
-  border:  solid black;
+  /* border:  solid black; */
   padding: 5px;
 
   @media ${device.tabletL}{
