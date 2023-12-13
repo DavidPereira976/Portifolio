@@ -1,10 +1,16 @@
-function Projetos() {
+import ProjetosItem from "../Components/ProjetosItem";
+import GradeProjetos from "../Components/GradeProjetos"
 
-    return (
-      <>
-        <h1>Esta é a parte de Projetos</h1>
-      </>
-    )
-  }
-  
-  export default Projetos
+
+
+function Projetos() {
+  return (
+    <>
+
+    <GradeProjetos/>
+      
+    </>
+  );
+}
+
+export default Projetos;
