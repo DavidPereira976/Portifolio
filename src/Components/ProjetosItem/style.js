@@ -28,6 +28,14 @@ export const ProjectContainer = styled.div`
   width: 300px;
   height: 390px;
   }
+
+  @media ${device.mobileS}{
+  width: 280px;
+  }
+
+  @media ${device.mobileN}{
+  width: 250px;
+  }
 `;
 
 export const ContentAndImage = styled.div`

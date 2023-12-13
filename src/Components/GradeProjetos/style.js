@@ -13,6 +13,10 @@ export const FirstAlignContainer = styled.div`
   @media ${device.mobileL}{
   height: 200vh;
   }
+
+  @media ${device.mobileN}{
+  height: 300vh;
+  }
 `;
 
 export const Title = styled.h1`
@@ -45,7 +49,21 @@ export const FirstGradeContainer = styled.section`
 
   @media ${device.mobileL} {
     width: 360px;
-    height: 1400px;
+    height: 1500px;
+  }
+
+  @media ${device.mobileM}{
+  width: 340px;
+  height: 1400px;
+  }
+
+  @media ${device.mobileA}{
+  width: 320px;
+  height: 1300px;
+  }
+
+  @media ${device.mobileS}{
+  width: 300px;
   }
 `;
 
