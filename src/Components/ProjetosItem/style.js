@@ -84,6 +84,11 @@ export const ProjectDescription = styled.p`
   /* margin-bottom: 15px; */
 
   @media ${device.mobileL}{
+    font-size: 13px;
+  
+  }
+
+  @media ${device.mobileN}{
     font-size: 12px;
   
   }

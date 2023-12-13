@@ -3,6 +3,8 @@ import ProjetosItem from "../ProjetosItem";
 import Sitedabliu from "../../assets/Imgs/Sitedabliu.svg";
 import Sitekhris from "../../assets/Imgs/Sitekhris.svg";
 import SiteFantastika from "../../assets/Imgs/Sitefantastika.svg";
+import SiteNetflix from "../../assets/Imgs/Sitenetflix.svg";
+import SiteCalculadora from "../../assets/Imgs/Sitecalculadora.svg";
 
 // Icons
 import React from "../../assets/Icons/React.svg";
@@ -20,9 +22,8 @@ import {
 } from "./style";
 
 function GradeProjetos() {
-  
-  const projectDabliu = {
 
+  const projectDabliu = {
     imageUrl: Sitedabliu,
     title: "Dabliu",
     description:
@@ -33,7 +34,6 @@ function GradeProjetos() {
   };
 
   const projectKhris = {
-    
     imageUrl: Sitekhris,
     title: "Khris Erreiro",
     description:
@@ -44,7 +44,6 @@ function GradeProjetos() {
   };
 
   const projectFantastika = {
-    
     imageUrl: SiteFantastika,
     title: "Fantastika",
     description:
@@ -52,6 +51,26 @@ function GradeProjetos() {
     icons: [Html, Css],
     githubLink: "https://github.com/DavidPereira976/ProjetovnwM1_final",
     websiteLink: "https://projetovnw-m1-final.vercel.app/",
+  };
+
+  const projectNetflix = {
+    imageUrl: SiteNetflix,
+    title: "Netflix",
+    description:
+      "Este foi um dos meus primeiros projetos, aqui eu queria testar minha capacidade de copiar interfaces, eu brinquei com propriedades de position para solucionar impasses de posicionamento de elementos, embora não esteja responsivo pro mobile, esse projeto contrinuiu muito para minha jornada",
+    icons: [Html, Css],
+    githubLink: "https://github.com/DavidPereira976/project_netflix",
+    websiteLink: "https://project-netflix-smoky.vercel.app/",
+  };
+
+  const projectCalculadora = {
+    imageUrl: SiteCalculadora,
+    title: "Calculadora React",
+    description:
+      "Projeto relativamente simples, feito em React.js, utilizei diversos hooks do react para implementar os calculos com operações matemáticas: tais como useState, useEfect, setTimeout entre outros, tbm fiz uso do styled-components para definir o estilo e responsividade",
+    icons: [React, Styled, JavaScript],
+    githubLink: "https://github.com/DavidPereira976/Calculadora-React",
+    websiteLink: "https://calculadora-react-peach.vercel.app/",
   };
   return (
     <>
@@ -86,11 +105,37 @@ function GradeProjetos() {
           />
         </FirstGradeContainer>
       </FirstAlignContainer>
-      {/* <SecondAlignContainer>
+      
+      <SecondAlignContainer>
         <SecondGradeContainer>
-          <h1>Hello world</h1>
+          <ProjetosItem
+            imageUrl={projectNetflix.imageUrl}
+            title={projectNetflix.title}
+            description={projectNetflix.description}
+            icons={projectNetflix.icons}
+            githubLink={projectNetflix.githubLink}
+            websiteLink={projectNetflix.websiteLink}
+          />
+
+          <ProjetosItem
+            imageUrl={projectCalculadora.imageUrl}
+            title={projectCalculadora.title}
+            description={projectCalculadora.description}
+            icons={projectCalculadora.icons}
+            githubLink={projectCalculadora.githubLink}
+            websiteLink={projectCalculadora.websiteLink}
+          />
+
+          {/* <ProjetosItem
+            imageUrl={projectFantastika.imageUrl}
+            title={projectFantastika.title}
+            description={projectFantastika.description}
+            icons={projectFantastika.icons}
+            githubLink={projectFantastika.githubLink}
+            websiteLink={projectFantastika.websiteLink}
+          /> */}
         </SecondGradeContainer>
-      </SecondAlignContainer> */}
+      </SecondAlignContainer>
     </>
   );
 }

@@ -74,14 +74,62 @@ export const FirstGradeContainer = styled.section`
 // SEGUNDA PARTE DO CÓDIGO
 
 export const SecondAlignContainer = styled.div`
-  border: solid pink;
+  /* border: solid pink; */
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #012e40;
+
+  @media ${device.mobileL}{
+  height: 130vh;
+  }
+
+  @media ${device.mobileN}{
+  height: 180vh;
+  }
 `;
 
 export const SecondGradeContainer = styled.section`
-  border: solid blue;
+  /* border: solid blue; */
+  height: 850px;
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+
+  @media ${device.laptopM} {
+    height: 650px;
+    width: 1200px;
+  }
+
+  @media ${device.tabletL} {
+    flex-direction: column;
+    height: 1000px;
+    width: 730px;
+  }
+
+  @media ${device.tabletS} {
+    width: 680px;
+  }
+
+  @media ${device.mobileL} {
+    width: 360px;
+    height: 1500px;
+  }
+
+  @media ${device.mobileM}{
+  width: 340px;
+  height: 1400px;
+  }
+
+  @media ${device.mobileA}{
+  width: 320px;
+  height: 1300px;
+  }
+
+  @media ${device.mobileS}{
+  width: 300px;
+  }
 `;
