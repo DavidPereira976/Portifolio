@@ -47,7 +47,7 @@ function GradeProjetos() {
     imageUrl: SiteFantastika,
     title: "Fantastika",
     description:
-      "Projeto feito como desafio de conclusão do Primeiro Módulo do Curso de Front-End. Esse foi um dos meus primeiros projetos, é de quando eu tinha aprendido o basico e estava treinando os conceitos de responsividade em dispositivos Mobile.",
+      "Projeto feito como desafio de conclusão do Primeiro Módulo do Curso de Front-End. Este foi um dos meus primeiros projetos, foi feito quando eu havia aprendido o básico e estava treinando os conceitos de responsividade em dispositivos mobile.",
     icons: [Html, Css],
     githubLink: "https://github.com/DavidPereira976/ProjetovnwM1_final",
     websiteLink: "https://projetovnw-m1-final.vercel.app/",
@@ -57,7 +57,7 @@ function GradeProjetos() {
     imageUrl: SiteNetflix,
     title: "Netflix",
     description:
-      "Este foi um dos meus primeiros projetos, aqui eu queria testar minha capacidade de copiar interfaces, eu brinquei com propriedades de position para solucionar impasses de posicionamento de elementos, embora não esteja responsivo pro mobile, esse projeto contrinuiu muito para minha jornada",
+      "Um dos meus primeiros projetos, nele explorei a replicação de interfaces e usei propriedades de posicionamento para resolver desafios de layout. Apesar de não ser responsivo para dispositivos móveis, essa experiência foi muito valiosa na minha jornada de aprendizado.",
     icons: [Html, Css],
     githubLink: "https://github.com/DavidPereira976/project_netflix",
     websiteLink: "https://project-netflix-smoky.vercel.app/",
@@ -67,7 +67,7 @@ function GradeProjetos() {
     imageUrl: SiteCalculadora,
     title: "Calculadora React",
     description:
-      "Projeto relativamente simples, feito em React.js, utilizei diversos hooks do react para implementar os calculos com operações matemáticas: tais como useState, useEfect, setTimeout entre outros, tbm fiz uso do styled-components para definir o estilo e responsividade",
+      "Desenvolvi um projeto simples de Calculadora em React.js, aproveitando uma variedade de hooks do React para realizar cálculos com operações matemáticas, incluindo useState, useEffect, setTimeout, entre outros. Além disso, utilizei o styled-components para estilizar e tornar o projeto responsivo.",
     icons: [React, Styled, JavaScript],
     githubLink: "https://github.com/DavidPereira976/Calculadora-React",
     websiteLink: "https://calculadora-react-peach.vercel.app/",

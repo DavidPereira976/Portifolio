@@ -8,7 +8,7 @@ function Hardskills() {
   return (
     <>
       <Container>
-        <Title >Estudos e HardSkills</Title>
+        <Title >Estudos & HardSkills</Title>
         <ContainerCards>
           <Cards>
             <img src={Vnw} alt="" />
@@ -30,7 +30,7 @@ function Hardskills() {
 
           <Cards>
             <img src={Ada} alt="" />
-            <NameCard>Versionamento Git/GiHub</NameCard>
+            <NameCard>Versionamento Git/GitHub</NameCard>
             <div>
             <NameCard>5 Horas</NameCard>
             <NameCard>Completo ✔</NameCard>
