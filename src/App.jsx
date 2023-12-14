@@ -1,4 +1,5 @@
 import Header from "./Components/Header/index"
+import Footer from "./Components/Footer";
 
 import Inicio from "./Pages/Inicio";
 import Sobre from "./Pages/Sobre"
@@ -17,6 +18,7 @@ function App() {
 
           <Route path="/projetos" element={<Projetos />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
       <Globalstyle/>
     </>
