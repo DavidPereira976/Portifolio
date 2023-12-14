@@ -60,7 +60,7 @@ function Apresentacao() {
             <Img src={Linkedin} alt="" />
           </a>
 
-          <a href="#" target="_blank">
+          <a href="https://wa.me/qr/KI5POXZM5HDRI1" target="_blank">
             <ImgZ src={Whatsapp} alt="" />
           </a>
         </Moldura>
