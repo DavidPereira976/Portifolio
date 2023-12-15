@@ -30,7 +30,7 @@ function Apresentacao() {
       <Container>
         {/* Animação */}
         <motion.div
-          initial={{ opacity: 0, y: -200 }} // Estilo inicial (opcional)
+          initial={{ opacity: 0, y: -400 }} // Estilo inicial (opcional)
           animate={{ opacity: 1, y: 0 }} // Estilo animado
           transition={{ duration: 0.5 }} // Configuração de transição
         >
@@ -42,7 +42,7 @@ function Apresentacao() {
         </motion.div>
 
         <motion.div
-          initial={{ opacity: 0, y: -200 }} // Estilo inicial (opcional)
+          initial={{ opacity: 0, y: -400 }} // Estilo inicial (opcional)
           animate={{ opacity: 1, y: 0 }} // Estilo animado
           transition={{ duration: 0.5 }} // Configuração de transição
         >
@@ -52,7 +52,7 @@ function Apresentacao() {
               <SecondTitle>
                 Eu sou o 
                 <motion.div
-                  initial={{ opacity: 0, x: -100 }} // Começa fora da tela, à esquerda
+                  initial={{ opacity: 0, x: -200 }} // Começa fora da tela, à esquerda
                   animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
                   transition={{ duration: 0.9 }} // Configuração da transição
                 >
