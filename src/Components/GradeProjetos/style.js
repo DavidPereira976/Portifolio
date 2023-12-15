@@ -14,6 +14,14 @@ export const FirstAlignContainer = styled.div`
   height: 200vh;
   }
 
+  @media ${device.mobileM}{
+  height: 210vh;
+  }
+
+  @media ${device.mobileA}{
+  height: 220vh;
+  }
+
   @media ${device.mobileN}{
   height: 300vh;
   }
@@ -53,12 +61,12 @@ export const FirstGradeContainer = styled.section`
 
   @media ${device.mobileL} {
     width: 360px;
-    height: 1500px;
+    height: 1360px;
   }
 
   @media ${device.mobileM}{
   width: 340px;
-  height: 1400px;
+  height: 1300px;
   }
 
   @media ${device.mobileA}{

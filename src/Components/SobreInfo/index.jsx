@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import FotoPerfil from "../../assets/Imgs/FotoPerfil.png";
 
 import {
@@ -19,22 +20,33 @@ function SobreInfos() {
     <>
       {" "}
       <FirstBoxContent>
-        <FirstBox>
-          <figure>
-            <Photo src={FotoPerfil} alt="" />
-          </figure>
-          <BoxContent>
-            <Title>{Mesage}</Title>
-            <FirstParagraph>
-              E aí, pessoal! David aqui, do Rio de Janeiro, com meus 21 anos e
-              um amor enorme por tecnologia e games. Fico ligado nas novidades
-              tech e adoro explorar mundos virtuais através dos jogos. É assim
-              que mantenho minha mente afiada e sempre em busca de desafios
-              interessantes.
-            </FirstParagraph>
-          </BoxContent>
-        </FirstBox>
+        <motion.div
+          initial={{ opacity: 0, y: -400 }} // Estilo inicial (opcional)
+          animate={{ opacity: 1, y: 0 }} // Estilo animado
+          transition={{ duration: 0.9 }} // Configuração de transição
+        >
+          <FirstBox>
+            <figure>
+              <Photo src={FotoPerfil} alt="" />
+            </figure>
+            <BoxContent>
+              <Title>{Mesage}</Title>
+              <FirstParagraph>
+                E aí, pessoal! David aqui, do Rio de Janeiro, com meus 21 anos e
+                um amor enorme por tecnologia e games. Fico ligado nas novidades
+                tech e adoro explorar mundos virtuais através dos jogos. É assim
+                que mantenho minha mente afiada e sempre em busca de desafios
+                interessantes.
+              </FirstParagraph>
+            </BoxContent>
+          </FirstBox>
+        </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, y: -400 }} // Estilo inicial (opcional)
+          animate={{ opacity: 1, y: 0 }} // Estilo animado
+          transition={{ duration: 0.9 }} // Configuração de transição
+        >
         <SecondBox>
           <SecondParagraph>
             Sou apaixonado por desenvolvimento web e estou mergulhando nesse
@@ -51,6 +63,7 @@ function SobreInfos() {
             Front-End e trazer criatividade e eficiência para cada projeto.
           </SecondParagraph>
         </SecondBox>
+        </motion.div>
       </FirstBoxContent>
     </>
   );

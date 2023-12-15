@@ -13,6 +13,8 @@ import Html from "../../assets/Icons/Html.svg";
 import Css from "../../assets/Icons/Css.svg";
 import JavaScript from "../../assets/Icons/JavaScript.svg";
 
+import { motion } from "framer-motion";
+
 import {
   FirstAlignContainer,
   Title,
@@ -22,7 +24,6 @@ import {
 } from "./style";
 
 function GradeProjetos() {
-
   const projectDabliu = {
     imageUrl: Sitedabliu,
     title: "Dabliu",
@@ -75,37 +76,49 @@ function GradeProjetos() {
   return (
     <>
       <FirstAlignContainer>
-        <Title>Meus Projetos</Title>
-        <FirstGradeContainer>
-          <ProjetosItem
-            imageUrl={projectDabliu.imageUrl}
-            title={projectDabliu.title}
-            description={projectDabliu.description}
-            icons={projectDabliu.icons}
-            githubLink={projectDabliu.githubLink}
-            websiteLink={projectDabliu.websiteLink}
-          />
+        <motion.div
+          initial={{ opacity: 0, x: -400 }} // Inicia fora da tela à esquerda
+          animate={{ opacity: 1, x: 0 }} // Anima para a posição à direita
+          transition={{ duration: 1 }}
+        >
+          <Title>Meus Projetos</Title>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -400 }} // Inicia fora da tela à esquerda
+          animate={{ opacity: 1, x: 0 }} // Anima para a posição à direita
+          transition={{ duration: 1 }}
+        >
+          <FirstGradeContainer>
+            <ProjetosItem
+              imageUrl={projectDabliu.imageUrl}
+              title={projectDabliu.title}
+              description={projectDabliu.description}
+              icons={projectDabliu.icons}
+              githubLink={projectDabliu.githubLink}
+              websiteLink={projectDabliu.websiteLink}
+            />
 
-          <ProjetosItem
-            imageUrl={projectKhris.imageUrl}
-            title={projectKhris.title}
-            description={projectKhris.description}
-            icons={projectKhris.icons}
-            githubLink={projectKhris.githubLink}
-            websiteLink={projectKhris.websiteLink}
-          />
+            <ProjetosItem
+              imageUrl={projectKhris.imageUrl}
+              title={projectKhris.title}
+              description={projectKhris.description}
+              icons={projectKhris.icons}
+              githubLink={projectKhris.githubLink}
+              websiteLink={projectKhris.websiteLink}
+            />
 
-          <ProjetosItem
-            imageUrl={projectFantastika.imageUrl}
-            title={projectFantastika.title}
-            description={projectFantastika.description}
-            icons={projectFantastika.icons}
-            githubLink={projectFantastika.githubLink}
-            websiteLink={projectFantastika.websiteLink}
-          />
-        </FirstGradeContainer>
+            <ProjetosItem
+              imageUrl={projectFantastika.imageUrl}
+              title={projectFantastika.title}
+              description={projectFantastika.description}
+              icons={projectFantastika.icons}
+              githubLink={projectFantastika.githubLink}
+              websiteLink={projectFantastika.websiteLink}
+            />
+          </FirstGradeContainer>
+        </motion.div>
       </FirstAlignContainer>
-      
+
       <SecondAlignContainer>
         <SecondGradeContainer>
           <ProjetosItem
