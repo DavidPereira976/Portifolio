@@ -12,6 +12,7 @@
   "dependencies": {
     "carousel": "^0.0.3",
     "components": "^0.1.0",
+    "framer-motion": "^10.16.16",
     "nuka": "^1.0.0",
     "nuka-carousel": "^7.0.0",
     "react": "^18.2.0",

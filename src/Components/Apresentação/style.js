@@ -100,20 +100,30 @@ export const FirstTitle = styled.h3`
 `;
 
 export const SecondTitle = styled.h2`
+ /* border: solid #fff; */
+ width: 490px;
   font-size: 42px;
   color: #fff;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  
 
   @media ${device.mobileL} {
     font-size: 26px;
+    width: 330px;
   }
 
   @media ${device.mobileS} {
     font-size: 24px;
+    width: 308px
   }
 
   @media ${device.mobileN}{
   font-size: 20px;
+  width: 265px;
   }
 `;
 
