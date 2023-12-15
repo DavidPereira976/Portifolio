@@ -15,11 +15,11 @@ export const FirstAlignContainer = styled.div`
   }
 
   @media ${device.mobileM}{
-  height: 210vh;
+  height: 205vh;
   }
 
   @media ${device.mobileA}{
-  height: 220vh;
+  height: 215vh;
   }
 
   @media ${device.mobileN}{
