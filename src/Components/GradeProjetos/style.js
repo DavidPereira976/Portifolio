@@ -10,6 +10,11 @@ export const FirstAlignContainer = styled.div`
   justify-content: center;
   background-color: #012e40;
 
+  @media ${device.tabletS}{
+    height: 120vh;
+  
+  }
+
   @media ${device.mobileL}{
   height: 200vh;
   }
