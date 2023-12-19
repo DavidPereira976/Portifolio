@@ -8,6 +8,7 @@ import JavaScript from "../../assets/Icons/JavaScript.svg";
 import React from "../../assets/Icons/React.svg";
 import Sass from "../../assets/Icons/Sass.svg";
 import Github from "../../assets/Icons/Github.svg";
+import Git from "../../assets/Icons/Git.svg";
 import Vscode from "../../assets/Icons/Vscode.svg";
 import Styled from "../../assets/Icons/Styled.svg";
 import Figma from "../../assets/Icons/Figma.svg";
@@ -23,7 +24,7 @@ function SlickCarousel({ children }) {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     cssEase: 'cubic-bezier(0.33, 1, 0.68, 1)',
     responsive: [
       {
@@ -93,6 +94,14 @@ function SlickCarousel({ children }) {
             <CardsCarousel>
               <Name >GITHUB</Name>
               <Img src={Github} alt="" />
+            </CardsCarousel>
+          </div>
+
+          <div>
+            <CardsCarousel>
+              <Name >GIT</Name>
+              <Name >VERSIONAMENTO</Name>
+              <Img src={Git} alt="" />
             </CardsCarousel>
           </div>
 
