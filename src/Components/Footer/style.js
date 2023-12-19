@@ -20,6 +20,13 @@ export const Container = styled.div`
 export const Img = styled.img`
   width: 40px;
   height: 40px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+  }
 
   @media ${device.laptopM} {
     height: 37px;
