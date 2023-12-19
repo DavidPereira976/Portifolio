@@ -18,7 +18,8 @@ function SlickCarousel({ children }) {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 3000,
+    pauseOnHover: false,
+    speed: 4000,
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
