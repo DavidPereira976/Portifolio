@@ -111,11 +111,8 @@ export const Icon = styled.img`
 export const ButtonSection = styled.div`
   /* border:  solid black; */
   padding: 5px;
-
-  @media ${device.tabletL}{
   display: flex;
   justify-content: end;
-  }
 `;
 
 export const Button = styled.a`
