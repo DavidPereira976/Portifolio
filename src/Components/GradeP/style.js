@@ -16,12 +16,8 @@ export const Title = styled.h1`
 padding: 50px;
 color: #fff;
 
-@media ${device.mobileL}{
-padding: 30px;
-}
-
 @media ${device.mobileN}{
-padding: 20px;
+padding: 30px;
 font-size: 15px;
 }
 `
