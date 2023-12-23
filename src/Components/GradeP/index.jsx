@@ -31,7 +31,7 @@ function GradeP() {
       "Dabliu, um projeto colaborativo em freelancer, é a ponte digital dos advogados. Utilizando React.js, JavaScript e styled-components, trabalhei para criar uma plataforma inovadora para simplificar o trabalho jurídico, unindo tecnologia e expertise legal.",
     icons: [React, Styled, JavaScript],
     githubLink: "https://github.com/DavidPereira976/dabliu",
-    websiteLink: "https://dabliu-smoky.vercel.app/",
+    websiteLink: "https://dabliuassessoria.com.br/?fbclid=PAAaZZG47WtlBCDoJQtvMRlZi-WKYuFUMatIDhjUg55b5gIGzu6Um73bIJZBU_aem_AXedFkcfsfURi5MvByB8sP3DyZB5BBiKtIDEnyAauJw5mCCZK3yK-ska3cc3gbibJLw",
   };
 
   const projectKhris = {
