@@ -30,8 +30,8 @@ function GradeP() {
     description:
       "Dabliu, um projeto colaborativo em freelancer, é a ponte digital dos advogados. Utilizando React.js, JavaScript e styled-components, trabalhei para criar uma plataforma inovadora para simplificar o trabalho jurídico, unindo tecnologia e expertise legal.",
     icons: [React, Styled, JavaScript],
-    githubLink: "url_do_repositorio_github",
-    websiteLink: "url_do_website",
+    githubLink: "https://github.com/DavidPereira976/dabliu",
+    websiteLink: "https://dabliu-smoky.vercel.app/",
   };
 
   const projectKhris = {
@@ -40,7 +40,7 @@ function GradeP() {
     description:
       "Colaborei como freelancer em equipe para criar um projeto de design de interiores. Utilizei HTML, CSS e JavaScript para desenvolver uma plataforma inovadora, combinando estética e funcionalidade.",
     icons: [Html, Css, JavaScript],
-    githubLink: "url_do_repositorio_github",
+    githubLink: "https://github.com/DavidPereira976/khris-herreiro",
     websiteLink: "https://khrisdecora.com.br/",
   };
 
