@@ -52,7 +52,7 @@ function SobreInfos() {
             Sou apaixonado por desenvolvimento web e estou mergulhando nesse
             universo na Faculdade Descomplica Digital, onde conquistei uma bolsa
             de estudos para o curso de Análise e Desenvolvimento de Sistemas.
-            Atualmente, estou no 3º período, ansioso para colocar em prática
+            Atualmente, estou no 4º período, ansioso para colocar em prática
             todo o conhecimento adquirido
           </SecondParagraph>
           <SecondParagraph>
