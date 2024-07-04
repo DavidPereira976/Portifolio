@@ -51,7 +51,7 @@ width: 700px;
 
 @media ${device.mobileL}{
 width: 350px;
-height: 1350px;
+min-height: 1350px;
 }
 
 @media ${device.mobileM}{

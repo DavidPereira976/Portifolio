@@ -5,6 +5,7 @@ import Sitekhris from "../../assets/Imgs/Sitekhris.svg";
 import SiteFantastika from "../../assets/Imgs/Sitefantastika.svg";
 import SiteNetflix from "../../assets/Imgs/Sitenetflix.svg";
 import SiteCalculadora from "../../assets/Imgs/Sitecalculadora.svg";
+import SiteTBM from "../../assets/Imgs/SiteTBM.svg";
 
 // Icons
 import React from "../../assets/Icons/React.svg";
@@ -31,7 +32,8 @@ function GradeP() {
       "Dabliu, um projeto colaborativo em freelancer, é a ponte digital dos advogados. Utilizando React.js, JavaScript e styled-components, trabalhei para criar uma plataforma inovadora para simplificar o trabalho jurídico, unindo tecnologia e expertise legal.",
     icons: [React, Styled, JavaScript],
     githubLink: "https://github.com/DavidPereira976/dabliu",
-    websiteLink: "https://dabliuassessoria.com.br/?fbclid=PAAaZZG47WtlBCDoJQtvMRlZi-WKYuFUMatIDhjUg55b5gIGzu6Um73bIJZBU_aem_AXedFkcfsfURi5MvByB8sP3DyZB5BBiKtIDEnyAauJw5mCCZK3yK-ska3cc3gbibJLw",
+    websiteLink:
+      "https://dabliuassessoria.com.br/?fbclid=PAAaZZG47WtlBCDoJQtvMRlZi-WKYuFUMatIDhjUg55b5gIGzu6Um73bIJZBU_aem_AXedFkcfsfURi5MvByB8sP3DyZB5BBiKtIDEnyAauJw5mCCZK3yK-ska3cc3gbibJLw",
   };
 
   const projectKhris = {
@@ -73,6 +75,18 @@ function GradeP() {
     githubLink: "https://github.com/DavidPereira976/Calculadora-React",
     websiteLink: "https://calculadora-react-peach.vercel.app/",
   };
+
+  const projectTBM = {
+    imageUrl: SiteTBM,
+    title: "MetaCalc",
+    description: `Esta aplicação foi desenvolvida para saúde, bem-estar e exercícios físicos,
+       com foco na otimização do tempo. Não perca mais tempo calculando calorias
+      para emagrecer ou crescer; deixe que esta ferramenta faça isso por você e 
+      concentre-se no que realmente importa.`,
+    icons: [Html, Css, JavaScript],
+    githubLink: "https://github.com/DavidPereira976/TBM",
+    websiteLink: "https://tbm-delta.vercel.app/",
+  };
   return (
     <>
       <FirstAlignContainer>
@@ -90,6 +104,15 @@ function GradeP() {
         >
           <GradeContainer>
             <ProjetosItem
+              imageUrl={projectTBM.imageUrl}
+              title={projectTBM.title}
+              description={projectTBM.description}
+              icons={projectTBM.icons}
+              githubLink={projectTBM.githubLink}
+              websiteLink={projectTBM.websiteLink}
+            />
+
+            <ProjetosItem
               imageUrl={projectDabliu.imageUrl}
               title={projectDabliu.title}
               description={projectDabliu.description}
@@ -106,7 +129,9 @@ function GradeP() {
               githubLink={projectKhris.githubLink}
               websiteLink={projectKhris.websiteLink}
             />
+          </GradeContainer>
 
+          <GradeContainer>
             <ProjetosItem
               imageUrl={projectFantastika.imageUrl}
               title={projectFantastika.title}
@@ -115,9 +140,6 @@ function GradeP() {
               githubLink={projectFantastika.githubLink}
               websiteLink={projectFantastika.websiteLink}
             />
-          </GradeContainer>
-
-          <GradeContainer>
             <ProjetosItem
               imageUrl={projectNetflix.imageUrl}
               title={projectNetflix.title}
